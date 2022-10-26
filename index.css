@@ -148,6 +148,11 @@ body{
     width: 12vw;
     font-weight: 400;
 }
+#main-elem-2-designTextPage{
+    font-size: 2vw;
+    width: 12vw;
+    font-weight: 400;
+}
 .main-elem2-text1{
     position: absolute;
     top: 10%;
