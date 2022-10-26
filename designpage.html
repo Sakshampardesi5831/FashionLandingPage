@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body data-barba="wrapper">
+    <div class="loader">
+         <div class="page-transition-1"></div>
+         <div class="page-transition-2"></div>
+    </div>
+    <div id="main" data-barba="container" data-barba-namespace="contact-section">
+         <div id="header">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+            <a href="designpage.html">designpage</a>
+            <i class="ri-search-line"></i>
+         </div>
+         <div class="container">
+              <div id="main-elem1">
+                   <h1 class="main-elem-text1">Algo es <br> algo; menos <br> es nada. ...</h1>
+                   <div class="elem-img">
+                       <div class="img-cover1" style="background-color: #E7A59D;"></div>
+                       <img src="https://images.unsplash.com/photo-1634746715098-6cafbc6a7a00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="">
+                   </div>
+                   <p class="main-elem-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, rem?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, dolores!</p>
+                   <h1 class="main-elem-num" id="aboutpagetext1">Dame pan <br>  y dime <br> tonto.</h1>
+              </div>
+              <div id="main-elem2">
+                    <h2 class="main-elem2-text1" id="main-elem-2-contactTextPage" >No hay que ahogarse en un vaso de agua. .</h2>
+                    <p class="main-elem2-para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta alias tenetur, facilis dolore sint quaerat.</p>
+                    <h4 class="main-elem2-text2">Biennale</h4>
+                    <div class="elem-img">
+                        <div class="img-cover2" style="background-color:  #EFCED5 ;"></div>
+                        <img src="https://images.unsplash.com/photo-1625136505104-8fff708da81d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="">
+                    </div>
+              </div>
+         </div>
+    </div>    
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"
+      integrity="sha512-gsEItzcNkWxfxHjr4BaEZAd9YuRWYjxnj7c/yukcZ0/nWehUb5TjJNyyv1ApCU2DFH/qgw+stFZHPOKnoQnIuQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>

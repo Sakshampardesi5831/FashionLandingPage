@@ -94,7 +94,7 @@ body{
     
 }
 .elem-img{
-    width: 216px;
+    width: 15vw;
     height: 290px;
     overflow: hidden;
     position: relative;
@@ -142,6 +142,11 @@ body{
     font-family: vregular;
     font-weight: 400;
     top: 20%;
+}
+#main-elem-2-contactTextPage{
+    font-size: 2vw;
+    width: 12vw;
+    font-weight: 400;
 }
 .main-elem2-text1{
     position: absolute;
